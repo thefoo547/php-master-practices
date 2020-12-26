@@ -11,5 +11,6 @@
 </html>
 
 <?php 
-
+    $first_var = "Hola mundo desde una variable";
+    echo '<h1>'.$first_var.'</h1>';
 ?>
