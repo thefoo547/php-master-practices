@@ -9,6 +9,6 @@
     echo gettype($text).'<br/>';
     echo gettype($bool).'<br/>';
 
-    echo var_dump($decimal);
+    var_dump($decimal);
 
 ?>
