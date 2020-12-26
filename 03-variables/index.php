@@ -12,5 +12,13 @@
 
 <?php 
     $first_var = "Hola mundo desde una variable";
+    $num = 44;
+    $bool = true;
+    $num = 77;
+
     echo '<h1>'.$first_var.'</h1>';
+    echo $num.'</br>';
+
+    $num = 120;    
+    echo $num.'</br>';
 ?>
