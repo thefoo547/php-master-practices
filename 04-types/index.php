@@ -4,9 +4,11 @@
     $text = 'text';
     $bool = true;
 
-    echo gettype($integer);
-    echo gettype($decimal);
-    echo gettype($text);
-    echo gettype($bool);
+    echo gettype($integer).'<br/>';
+    echo gettype($decimal).'<br/>';
+    echo gettype($text).'<br/>';
+    echo gettype($bool).'<br/>';
+
+    echo var_dump($decimal);
 
 ?>
